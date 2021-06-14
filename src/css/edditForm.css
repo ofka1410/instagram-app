@@ -1,0 +1,50 @@
+.ChangePro{
+    color: #0095F6 !important;
+    font-size: 14px;
+
+}
+.username{
+color: #262626;
+font-size:20px;
+}
+.profilePic{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.change-warper{
+display:flex;
+flex-direction: row;
+justify-content: center;
+margin-top:20px;
+}
+.edit-block{
+    margin-top: 50px;
+    width:50%;
+    border: 1px solid grey;
+    position: absolute;
+    left: 25%;
+    height: 400px;
+}
+.user-changePro{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.subttails{
+   color:#8E8E8E;
+   font-size:12px;
+   font-weight: 300; 
+}
+.upload-pic{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    margin-top: 10px;
+}
+.url-field{
+    width:350px;
+}
+.save-bt{
+    background-color: rgba(0,149,246,.3)  !important;
+}

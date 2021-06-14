@@ -1,0 +1,21 @@
+.story-warper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.avatar-warper{
+    margin: 10px;
+}
+.story-pic{
+    width: 70px  !important;
+    height: 70px !important;
+    cursor: pointer;
+}
+.story-box{
+    z-index: 1000;
+    position: absolute;
+    right:30%;
+    top:12%;
+}

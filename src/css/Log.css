@@ -1,0 +1,32 @@
+.root{
+    flex-grow: 1;
+    display:flex;
+   align-items:center;
+   justify-content:center;
+}
+.blocks{
+    border: 1px solid grey;
+    min-width:350px;
+    padding-bottom:30px;
+    margin-top:50px;
+}
+
+.btLog{
+    background-color: "#0095f6";
+        opacity:0.9;
+        width:"268px";
+        height:'30px';
+        margin-top: '10px';
+        color:white;
+}
+.input{
+    width:268px;
+height: 38px;
+margin-bottom:5px;
+border-top:1px solid grey;
+background: #FAFAFA;
+
+}
+.headers{
+    margin-top:20px;
+}

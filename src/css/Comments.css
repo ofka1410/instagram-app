@@ -1,0 +1,37 @@
+.comments-warper{
+  display: flex;  
+  flex-direction: row;
+  max-width:650px !important;
+}
+.post-img{
+    max-width:300px !important;
+   max-height: 300px !important;
+}
+.comment{
+    display: flex;  
+    flex-direction: row; 
+    width:300px;
+    border: 1px solid grey;
+    margin: 7px;
+    height: 60px;
+    align-items: center;
+}
+
+.commet-coloums{
+    display: flex;  
+    flex-direction: column; 
+    overflow-y: scroll; 
+}
+
+.commentAvatar{
+    width:55px;
+    height: 55px;
+    margin-left: 5px;
+}
+.theComment{
+padding-top:15px;
+margin-left: 10px;
+}
+.comment-time{
+font-size: 11px;
+}

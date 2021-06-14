@@ -1,0 +1,55 @@
+.profile_pic{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+.profile-warper{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+    margin-top: 20px;
+margin-bottom: 50px;
+
+ 
+    
+}
+.user-header{
+    font-size: 32px;
+  
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-right:20px;
+}
+.post-pic{
+  width:293px;
+  height: 293px;  
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+
+.stats-warper{
+margin:15px;
+}
+
+.follow-span{
+    margin-right: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.follow-span:hover{
+    cursor: pointer;
+}
+.users{
+padding-left: 20px;
+padding-right: 20px;
+}
+.icon-warper{
+    position: relative;
+    top:150px;
+    z-index:1000 ;
+}
